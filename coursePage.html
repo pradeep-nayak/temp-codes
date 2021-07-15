@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive website from easy-tutorial</title>
+    <link type="text/css" rel="stylesheet" href="./responsiveWebsite1.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <div class="logo">
+                <a href="./Home.html">udeka</a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./Home.html">Home</a></li>
+                    <li><a href="./about.html">about</a></li>
+                    <li><a href="./coursePage.html">course</a></li>
+                    <li><a href="./blog.html">blog</a></li>
+                    <li><a href="./contact.html">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Our Courses</h1>
+
+
+        </div>
+
+    </section>
+
+    <!-------------course-------------------->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p> lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. </p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p> lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum
+                    et Malorum for use in a type specimen book.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p> lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum
+                    et Malorum for use in a type specimen book.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post-Graduation</h3>
+                <p> lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum
+                    et Malorum for use in a type specimen book.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!----------Facilities----------->
+
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p> lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. </p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="../img/clgLibrary.jpg">
+                <h3>World Class Library</h3>
+                <p> lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter .</p>
+            </div>
+            <div class="facilities-col">
+                <img src="../img/basketball-play">
+                <h3>Largest Play Ground</h3>
+                <p> lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter .</p>
+            </div>
+            <div class="facilities-col">
+                <img src="../img/canteen_img.jpg">
+                <h3>Tastey And Healthy Food</h3>
+                <p> lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter .</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-------footer---------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p> lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum
+            for use in a type specimen book.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> by Practice Purpose</p>
+    </section>
+
+
+
+
+
+
+
+    <!------javascript code for toggle menu-------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
